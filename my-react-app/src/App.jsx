@@ -1,11 +1,11 @@
 import Card from "./Examples/Card";
 import Button from "./Examples/Button";
-import Conditional from "./Examples/Conditional";
+import List from "./Examples/List";
 
 function App() {
   return(
     <>
-    <Conditional isLoggedIn={false} user="Gunal"/>
+    <List />
     </>
   )
 }
