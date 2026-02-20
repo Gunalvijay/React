@@ -1,11 +1,11 @@
 import Card from "./Examples/Card";
 import Button from "./Examples/Button";
-import Props from "./Examples/Props";
-import Student from "./Examples/PropsTypes";
+import Conditional from "./Examples/Conditional";
 
 function App() {
   return(
     <>
+    <Conditional isLoggedIn={false} user="Gunal"/>
     </>
   )
 }
