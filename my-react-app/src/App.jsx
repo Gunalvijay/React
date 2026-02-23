@@ -14,6 +14,7 @@ import Parent from "./Examples/UseCallback/withUsecallback";
 function App() {
   return(
     <>
+    <Counter />
     </>
   )
 }
