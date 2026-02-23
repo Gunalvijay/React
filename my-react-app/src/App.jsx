@@ -8,7 +8,7 @@ import Effect from "./Examples/Effect";
 function App() {
 
   return (
-    <Effect />
+    
   )
 }
 
