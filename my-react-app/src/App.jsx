@@ -6,11 +6,14 @@ import Counter from "./Examples/Counter";
 import Demo from "./Examples/Render";
 import Effect from "./Examples/Effect";
 import ComponentA from "./Examples/UseContext/ComponentA";
+import Example from "./Examples/withoutUseMemo";
+import Examples from "./Examples/WithUseMemo";
 
 function App() {
-
-  return (
-    <ComponentA />
+  return(
+    <>
+    <Examples />
+    </>
   )
 }
 
