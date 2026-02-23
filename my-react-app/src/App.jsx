@@ -10,11 +10,12 @@ import Example from "./Examples/UseMemo/WithoutUseMemo";
 import Examples from "./Examples/UseMemo/WithUseMemo";
 import Parents from "./Examples/UseCallback/withoutUseccallback";
 import Parent from "./Examples/UseCallback/withUsecallback";
+import Layout from "./Examples/UseLayoutEffect";
 
 function App() {
   return(
     <>
-    <Counter />
+    <Layout />
     </>
   )
 }
