@@ -11,11 +11,13 @@ import Examples from "./Examples/UseMemo/WithUseMemo";
 import Parents from "./Examples/UseCallback/withoutUseccallback";
 import Parent from "./Examples/UseCallback/withUsecallback";
 import Layout from "./Examples/UseLayoutEffect";
+import ReactMemo from "./Examples/React.memo/Recmemo";
+import ReactMemo1 from "./Examples/React.memo/Recmemo1";
 
 function App() {
   return(
     <>
-    <Layout />
+    <ReactMemo1 />
     </>
   )
 }
