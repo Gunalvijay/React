@@ -16,13 +16,18 @@ import ReactMemo from "./Examples/React.memo/Recmemo";
 import ReactMemo1 from "./Examples/React.memo/Recmemo1";
 import Home from "./Examples/Router/Home";
 import About from "./Examples/Router/About";
+import Profile from "./Examples/outlet/Profile";
+import Settings from "./Examples/outlet/Settings";
+import Dashboard from "./Examples/outlet/Dashboard";
 
 function App() {
   return(
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
+            <Route path="/dashboard" element={<Dashboard />}>
+              <Route path="profile" element={<Profile />}/>
+              <Route path="settings" element={<Settings />}/>
+            </Route>
         </Routes>
     </BrowserRouter>
   )
